@@ -6,14 +6,10 @@
 using namespace std;
 
 void llenar_arreglo(int arreglo[100000]){
-
     srand(time(NULL));
-
     for (int i=0; i<100000; i++){
         arreglo[i]=rand()%100;
     }
-
-
 }
 
 float promedio(int arreglo[100000]){
