@@ -85,6 +85,7 @@ int main(int argc, char** argv)
     float desv_estandar = 0.0;
     float varianza = 0.0;
     float sub_promedio;
+    float cantidad_sub_arreglos;
 
     MPI_Status estado; /* Devuelve estado al recibir*/
 
