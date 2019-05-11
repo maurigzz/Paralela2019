@@ -119,7 +119,7 @@ int main(int argc, char** argv)
             sub_promedio = obtener_promedio(destino*cantidad_sub_arreglos, (destino*cantidad_sub_arreglos)+cantidad_sub_arreglos, sub_arreglo);
             /* MPI_Send(&dato_a_enviar, contador(0/1), tipo_de_dato, destino, tag(0/1), comunicador) */
             MPI_Send(&sub_promedio, cantidad_sub_arreglos, MPI_INT, destino, tag, MPI_COMM_WORLD);
-            cout << ("..." << endl;
+            cout << ("...") << endl;
         }
         cout << "Datos Distribuidos" << endl;
 
